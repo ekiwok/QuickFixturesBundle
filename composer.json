@@ -1,0 +1,20 @@
+{
+  "name": "ekiwok/quick-fixtures-bundle",
+  "description": "@todo",
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require" : {
+    "php" : ">=5.6",
+    "ekiwok/quick-fixtures" : ">=0.9.0"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
